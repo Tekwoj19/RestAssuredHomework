@@ -35,8 +35,8 @@ public class TestyApiJasonPlaceHolder {
         given().
 
                 when().
-                get("https://jsonplaceholder.typicode.com/users").then().contentType(ContentType.JSON).statusCode(200).
-                body("{ website.endsWith(\".org\")}.size()", equalTo(9));
+                get("https://jsonplaceholder.typicode.com/users").then().assertThat().contentType(ContentType.JSON).statusCode(200).
+                body("{website.endsWith(\"org\")}.size()", equalTo(9));
     }
 
     @Test
@@ -46,10 +46,10 @@ public class TestyApiJasonPlaceHolder {
                 when().
                 get("https://jsonplaceholder.typicode.com/users").
                 then().
+                log().all().
                 contentType(ContentType.JSON).
                 statusCode(200).
-                log().
-                body(("zipcode".equals("23505-1337")));
+                body("address.zipcode[5]",equalTo("23505-1337"));
 
     }
 
@@ -64,6 +64,16 @@ public class TestyApiJasonPlaceHolder {
     }
 
 
+    @Test
+    public void useerCanBrowsePosts() {
+
+        given().
+
+                when().
+                get("https://jsonplaceholder.typicode.com/posts").
+               then().
+                statusCode(200);
+    }
 
 
 
