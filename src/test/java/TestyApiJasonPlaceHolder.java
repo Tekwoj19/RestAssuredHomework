@@ -2,9 +2,7 @@ import io.restassured.http.ContentType;
 import io.restassured.response.ValidatableResponse;
 import org.junit.Assert;
 import org.junit.Test;
-
 import static io.restassured.RestAssured.given;
-import static io.restassured.matcher.RestAssuredMatchers.endsWithPath;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.collection.IsCollectionWithSize.hasSize;
 
@@ -32,11 +30,13 @@ public class TestyApiJasonPlaceHolder {
     @Test
     public void checkingNumberOfUsersThatEndsWith() {
 
+
         given().
 
                 when().
                 get("https://jsonplaceholder.typicode.com/users").then().contentType(ContentType.JSON).statusCode(200).
-                body("{ website.endsWith(\".org\")}.size()", equalTo(9));
+                body("{ website.endsWith(\".org\")}.size()", hasSize(9));
+
     }
 
     @Test
@@ -49,7 +49,7 @@ public class TestyApiJasonPlaceHolder {
                 contentType(ContentType.JSON).
                 statusCode(200).
                 log().
-                body(("zipcode".equals("23505-1337")));
+                body(("address.zipcode[5]".equals("23505-1337")));
 
     }
 
@@ -64,7 +64,33 @@ public class TestyApiJasonPlaceHolder {
     }
 
 
+    @Test
+    public void userShouldBeAbleToBrowsePosts() {
 
+        given().
+                when().
+                get("https://jsonplaceholder.typicode.com/posts/1").
+                then().
+                statusCode(200).
+                body("id", equalTo(1));
+
+    }
+
+
+    @Test
+    public void userShouldBeAbleToBrowseCommentsForSpecificPost() {
+
+        given().
+                when().
+                get("https://jsonplaceholder.typicode.com/posts/1/comments").
+                then().
+                statusCode(200).
+                body("postId", hasSize(5)).
+                and().
+                contentType(ContentType.JSON);
+
+
+    }
 
 
 }
