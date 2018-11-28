@@ -35,7 +35,7 @@ public class TestyApiJasonPlaceHolder {
 
                 when().
                 get("https://jsonplaceholder.typicode.com/users").then().contentType(ContentType.JSON).statusCode(200).
-                body("{ website.endsWith(\".org\")}.size()", hasSize(9));
+                body("findAll{ it.website.endsWith(\".org\")}.size()", equalTo(2));
 
     }
 
