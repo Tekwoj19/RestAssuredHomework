@@ -1,7 +1,11 @@
+import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
+import io.restassured.parsing.Parser;
+import io.restassured.response.ValidatableResponse;
 import org.junit.Test;
 
 import static io.restassured.RestAssured.given;
+import static org.hamcrest.Matchers.lessThan;
 import static org.hamcrest.collection.IsCollectionWithSize.hasSize;
 import static org.hamcrest.core.IsEqual.equalTo;
 
@@ -14,38 +18,67 @@ public class WeaveSocksRestAssuredTest {
 
     }
 
-
     @Test
-    public void checkingIfPostResponseReturn100Records() {
+    public void checkingCatalogueSizeResponse() {
 
-        given().
-                contentType(" text/plain; charset=utf-8").
+        RestAssured.registerParser("text/plain",Parser.JSON);
+                given().
                 when().
                 get("http://localhost:4180/catalogue/size").
                 then().
-                contentType("text/plain; charset=utf-8").
-                statusCode(200).
-                body("size", hasSize(9));
-
-
-
+                statusCode(200).log().all().
+                body("size",equalTo(9));
     }
 
     @Test
     public void testingProductResponseById() {
-
-//        String ori= "test";
-//        String expectedMd5CheckSum = "098f6bcd4621d373cade4e832627b4f6";
-
+        RestAssured.registerParser("text/plain",Parser.JSON);
         given().
-//                param("text",id).
                 when().
                 get("http://localhost:4180/catalogue/03fef6ac-1896-4ce8-bd69-b798f85c6e0b").
                 then().
                 assertThat().
+                statusCode(200).log().all().
                 body("name",equalTo("Holy"));
 
     }
+    @Test
+    public void testingTags() {
+        RestAssured.registerParser("text/plain",Parser.JSON);
+        String[] tagi= {"brown","geek","formal","blue","skin","red","action","sport","black","magic","green"};
+                given().
+                when().
+                get("http://localhost:4180/tags").
+                then().
+                assertThat().
+                statusCode(200).log().all().
+                body("tags.size()",equalTo(11));
+//                body("tags".contentEquals(tagi);
+    }
+
+    @Test
+    public void testingLogin() {
+        RestAssured.registerParser("text/plain",Parser.JSON);
+    given()
+                .contentType("application/json")
+                .auth()
+                .preemptive()
+                .basic("test", "test")
+                .when()
+                    .post("http://localhost:4180")
+                .then()
+                    .log()
+                    .all();
+//                    .time(lessThan(5000L));
+//            .body("returnUrl", equalTo("/browse/" + project.get("key")));
+}
+
+
+
+
+
+
+
 
     }
 
