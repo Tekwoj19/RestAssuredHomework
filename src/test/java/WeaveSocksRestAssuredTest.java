@@ -50,6 +50,20 @@ public class WeaveSocksRestAssuredTest {
                 body("name",equalTo("Holy"));
 
     }
+
+    @Test
+    public void testingProductResponseByIdNotFound() {
+        RestAssured.registerParser("text/plain",Parser.JSON);
+        given().
+                when().
+                get("http://localhost:4180/catalogue/sdfsdfsd").
+                then().
+                assertThat().
+                statusCode(200).log().all().
+                body("error",equalTo("Do: not found"));
+
+    }
+
     @Test
     public void testingTags() {
         RestAssured.registerParser("text/plain",Parser.JSON);
@@ -81,8 +95,6 @@ public class WeaveSocksRestAssuredTest {
                  .statusCode(200)
                     .log()
                     .all();
-//                    .time(lessThan(5000L));
-//            .body("returnUrl", equalTo("/browse/" + project.get("key")));
 }
 
 
