@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="865f50ea-0ced-4225-8216-fe3464750462" name="Default Changelist" comment="">
+    <list default="true" id="2b10c2c2-2170-4777-aacb-2e1e53172e92" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/WeaveSocksRestAssuredTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WeaveSocksRestAssuredTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/WeaveSocksRestAssuredTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/WeaveSocksRestAssuredTest.class" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,64 +15,49 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="-460168578">
+    <session id="719868029">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="1889" />
-          <entry key="xml" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="1889" />
-          <entry key="XML" value="3" />
+          <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="2" />
           <entry key="java" value="2" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="2" />
           <entry key="JAVA" value="2" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.checkout.remote" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="260" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="260" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestyApiJasonPlaceHolder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-75">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -81,8 +65,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/WeaveSocksRestAssuredTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="45" column="31" lean-forward="true" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
+            <state relative-caret-position="510">
+              <caret line="76" column="24" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,60 +75,38 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/3.0.7/rest-assured-3.0.7.jar!/io/restassured/specification/AuthenticationSpecification.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/3.0.7/rest-assured-3.0.7.jar!/io/restassured/specification/RequestSpecification.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/TestyApiJasonPlaceHolder.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/WeaveSocksRestAssuredTest.java" />
       </list>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="RestAssuredHomework" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="465" />
-    <option name="y" value="551" />
-    <option name="width" value="1394" />
-    <option name="height" value="976" />
+    <option name="x" value="1920" />
+    <option name="y" value="85" />
+    <option name="width" value="1910" />
+    <option name="height" value="810" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -152,7 +114,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,12 +130,6 @@
               <item name="RestAssuredHomework" type="b2602c69:ProjectViewProjectNode" />
               <item name="RestAssuredHomework" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RestAssuredHomework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RestAssuredHomework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -184,18 +139,25 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="RestAssuredHomework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543617087665" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543777092214" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -220,26 +182,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WeaveSocksRestAssuredTest.testingProductResponseById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredHomework" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WeaveSocksRestAssuredTest" />
-      <option name="METHOD_NAME" value="testingProductResponseById" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WeaveSocksRestAssuredTest.testingProductResponseById1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredHomework" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WeaveSocksRestAssuredTest" />
-      <option name="METHOD_NAME" value="testingProductResponseById1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WeaveSocksRestAssuredTest.testingTags" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredHomework" />
       <option name="PACKAGE_NAME" value="" />
@@ -250,20 +192,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WeaveSocksRestAssuredTest.testingTags1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredHomework" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WeaveSocksRestAssuredTest" />
-      <option name="METHOD_NAME" value="testingTags1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.WeaveSocksRestAssuredTest.testingProductResponseById" />
-      <item itemvalue="JUnit.WeaveSocksRestAssuredTest.testingProductResponseById1" />
-      <item itemvalue="JUnit.WeaveSocksRestAssuredTest.testingTags1" />
       <item itemvalue="JUnit.WeaveSocksRestAssuredTest.testingTags" />
       <item itemvalue="JUnit.WeaveSocksRestAssuredTest.testingLogin" />
     </list>
@@ -271,9 +200,6 @@
       <list>
         <item itemvalue="JUnit.WeaveSocksRestAssuredTest.testingLogin" />
         <item itemvalue="JUnit.WeaveSocksRestAssuredTest.testingTags" />
-        <item itemvalue="JUnit.WeaveSocksRestAssuredTest.testingTags1" />
-        <item itemvalue="JUnit.WeaveSocksRestAssuredTest.testingProductResponseById1" />
-        <item itemvalue="JUnit.WeaveSocksRestAssuredTest.testingProductResponseById" />
       </list>
     </recent_temporary>
   </component>
@@ -282,117 +208,119 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="865f50ea-0ced-4225-8216-fe3464750462" name="Default Changelist" comment="" />
-      <created>1542745449487</created>
+      <changelist id="2b10c2c2-2170-4777-aacb-2e1e53172e92" name="Default Changelist" comment="" />
+      <created>1543775803606</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1542745449487</updated>
+      <updated>1543775803606</updated>
+      <workItem from="1543775806872" duration="1173000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WeaveSocksRestAssuredTest_testingProductResponseById1 - 2018.11.29 at 23h 14m 14s.xml">
-      <configuration name="WeaveSocksRestAssuredTest.testingProductResponseById1" configurationId="JUnit" />
+    <history-entry file="WeaveSocksRestAssuredTest_testingTags - 2018.12.02 at 19h 42m 02s.xml">
+      <configuration name="WeaveSocksRestAssuredTest.testingTags" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeaveSocksRestAssuredTest_testingProductResponseById1 - 2018.11.29 at 23h 23m 22s.xml">
-      <configuration name="WeaveSocksRestAssuredTest.testingProductResponseById1" configurationId="JUnit" />
+    <history-entry file="WeaveSocksRestAssuredTest_testingTags - 2018.12.02 at 19h 42m 11s.xml">
+      <configuration name="WeaveSocksRestAssuredTest.testingTags" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeaveSocksRestAssuredTest_testingProductResponseById1 - 2018.11.29 at 23h 26m 06s.xml">
-      <configuration name="WeaveSocksRestAssuredTest.testingProductResponseById1" configurationId="JUnit" />
+    <history-entry file="WeaveSocksRestAssuredTest_testingTags - 2018.12.02 at 19h 47m 35s.xml">
+      <configuration name="WeaveSocksRestAssuredTest.testingTags" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeaveSocksRestAssuredTest_testingProductResponseById1 - 2018.11.29 at 23h 32m 54s.xml">
-      <configuration name="WeaveSocksRestAssuredTest.testingProductResponseById1" configurationId="JUnit" />
+    <history-entry file="WeaveSocksRestAssuredTest_testingTags - 2018.12.02 at 19h 52m 02s.xml">
+      <configuration name="WeaveSocksRestAssuredTest.testingTags" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeaveSocksRestAssuredTest_testingProductResponseById1 - 2018.11.29 at 23h 38m 36s.xml">
-      <configuration name="WeaveSocksRestAssuredTest.testingProductResponseById1" configurationId="JUnit" />
+    <history-entry file="WeaveSocksRestAssuredTest_testingTags - 2018.12.02 at 19h 52m 32s.xml">
+      <configuration name="WeaveSocksRestAssuredTest.testingTags" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeaveSocksRestAssuredTest_testingProductResponseById1 - 2018.11.29 at 23h 39m 21s.xml">
-      <configuration name="WeaveSocksRestAssuredTest.testingProductResponseById1" configurationId="JUnit" />
+    <history-entry file="WeaveSocksRestAssuredTest_testingTags - 2018.12.02 at 19h 53m 16s.xml">
+      <configuration name="WeaveSocksRestAssuredTest.testingTags" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeaveSocksRestAssuredTest_testingTags1 - 2018.11.30 at 00h 09m 57s.xml">
-      <configuration name="WeaveSocksRestAssuredTest.testingTags1" configurationId="JUnit" />
+    <history-entry file="WeaveSocksRestAssuredTest_testingTags - 2018.12.02 at 19h 53m 50s.xml">
+      <configuration name="WeaveSocksRestAssuredTest.testingTags" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeaveSocksRestAssuredTest_testingTags1 - 2018.11.30 at 00h 10m 43s.xml">
-      <configuration name="WeaveSocksRestAssuredTest.testingTags1" configurationId="JUnit" />
+    <history-entry file="WeaveSocksRestAssuredTest_testingTags - 2018.12.02 at 19h 54m 14s.xml">
+      <configuration name="WeaveSocksRestAssuredTest.testingTags" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeaveSocksRestAssuredTest_testingTags1 - 2018.11.30 at 00h 11m 16s.xml">
-      <configuration name="WeaveSocksRestAssuredTest.testingTags1" configurationId="JUnit" />
+    <history-entry file="WeaveSocksRestAssuredTest_testingLogin - 2018.12.02 at 19h 54m 48s.xml">
+      <configuration name="WeaveSocksRestAssuredTest.testingLogin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeaveSocksRestAssuredTest_testingTags1 - 2018.11.30 at 00h 12m 07s.xml">
-      <configuration name="WeaveSocksRestAssuredTest.testingTags1" configurationId="JUnit" />
+    <history-entry file="WeaveSocksRestAssuredTest_testingLogin - 2018.12.02 at 19h 55m 25s.xml">
+      <configuration name="WeaveSocksRestAssuredTest.testingLogin" configurationId="JUnit" />
     </history-entry>
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1173000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
-    <editor active="true" />
+    <frame x="1920" y="-2" width="1920" height="1082" extended-state="6" />
     <layout>
-      <window_info id="Image Layers" order="0" />
-      <window_info id="Designer" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.14759536" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2497332" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" weight="0.32983193" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32983193" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3294979" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32983193" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39915967" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.33054394" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3294979" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32946378" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>given().
+                when().
+                get(&quot;http://localhost:4180/tags&quot;).
+                then().
+                assertThat().
+                statusCode(200).log().all().
+                extract().jsonPath().getList(&quot;tags&quot;);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestyApiJasonPlaceHolder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/3.0.7/rest-assured-3.0.7.jar!/io/restassured/specification/AuthenticationSpecification.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/3.0.7/rest-assured-3.0.7.jar!/io/restassured/specification/RequestSpecification.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        <state relative-caret-position="-75">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/WeaveSocksRestAssuredTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="45" column="31" lean-forward="true" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
+        <state relative-caret-position="510">
+          <caret line="76" column="24" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -402,81 +330,9 @@
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>RestAssuredHomework</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: commons-codec:commons-codec:1.9</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

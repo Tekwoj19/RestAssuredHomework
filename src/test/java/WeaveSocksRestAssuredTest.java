@@ -1,10 +1,18 @@
 import io.restassured.RestAssured;
+import io.restassured.config.RestAssuredConfig;
 import io.restassured.http.ContentType;
 import io.restassured.parsing.Parser;
 import io.restassured.response.ValidatableResponse;
+import org.junit.Assert;
 import org.junit.Test;
 
+import java.util.Arrays;
+import java.util.List;
+
 import static io.restassured.RestAssured.given;
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.arrayContaining;
+import static org.hamcrest.Matchers.arrayContainingInAnyOrder;
 import static org.hamcrest.Matchers.lessThan;
 import static org.hamcrest.collection.IsCollectionWithSize.hasSize;
 import static org.hamcrest.core.IsEqual.equalTo;
@@ -45,15 +53,17 @@ public class WeaveSocksRestAssuredTest {
     @Test
     public void testingTags() {
         RestAssured.registerParser("text/plain",Parser.JSON);
-        String[] tagi= {"brown","geek","formal","blue","skin","red","action","sport","black","magic","green"};
-                given().
+        List<String> tagi= Arrays.asList("brown","geek","formal","blue","skin","red","action","sport","black","magic","green");
+        List<String> tagsFromResponse = given().
                 when().
                 get("http://localhost:4180/tags").
                 then().
                 assertThat().
                 statusCode(200).log().all().
-                body("tags.size()",equalTo(11));
+                body("tags",hasSize(11)).
+                extract().jsonPath().getList("tags");
 //                body("tags".contentEquals(tagi);
+        Assert.assertEquals(tagi,tagsFromResponse);
     }
 
     @Test
@@ -64,9 +74,11 @@ public class WeaveSocksRestAssuredTest {
                 .auth()
                 .preemptive()
                 .basic("test", "test")
+            .log().all()
                 .when()
-                    .post("http://localhost:4180")
+                    .get("http://localhost:4180/login")
                 .then()
+                 .statusCode(200)
                     .log()
                     .all();
 //                    .time(lessThan(5000L));
