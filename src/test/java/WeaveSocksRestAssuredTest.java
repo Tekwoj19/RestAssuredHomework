@@ -7,7 +7,9 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -101,7 +103,23 @@ public class WeaveSocksRestAssuredTest {
 
 
 
-
+//@Test
+//    public void checkingFillingAddress(){
+//
+//        RestAssured.registerParser("text/plain",Parser.JSON);
+//    Map<String,Object> shippingaadress=new HashMap<String, Object>();
+//    shippingaadress.put("street", "new");
+//    shippingaadress.put("number", "1");
+//    shippingaadress.put("city", "new york");
+//    shippingaadress.put("country", "usa");
+//    shippingaadress.put("postcode", "123");
+//    given().contentType("application/").
+//            when().
+//            get("http://http://localhost:4180/addresses").
+//            then()
+//            .body("address.")
+//
+//}
 
 
     }
