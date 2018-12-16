@@ -117,9 +117,9 @@ public class WeaveSocksRestAssuredTest {
 //            when().
 //            get("http://http://localhost:4180/addresses").
 //            then()
-//            .body("address.")
-//
-//}
+//            .body()
+
+}
 
 
     }

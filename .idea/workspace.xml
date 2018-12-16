@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b10c2c2-2170-4777-aacb-2e1e53172e92" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/WeaveSocksRestAssuredTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WeaveSocksRestAssuredTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/WeaveSocksRestAssuredTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/WeaveSocksRestAssuredTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,6 +15,7 @@
     <session id="719868029">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.9" value="1" />
           <entry key="project.opened" value="2" />
@@ -49,16 +47,16 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Mathwithbackgound" value="4" />
-          <entry key="feature" value="404" />
-          <entry key="java" value="796" />
+          <entry key="feature" value="415" />
+          <entry key="java" value="806" />
           <entry key="mathfeatureWithBackground" value="4" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Cucumber" value="408" />
-          <entry key="JAVA" value="796" />
+          <entry key="Cucumber" value="419" />
+          <entry key="JAVA" value="806" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="XML" value="2" />
         </counts>
@@ -76,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/WeaveSocksRestAssuredTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="105" selection-start-line="105" selection-start-column="2" selection-end-line="121" selection-end-column="3" />
+            <state relative-caret-position="690">
+              <caret line="119" column="21" lean-forward="true" selection-start-line="119" selection-start-column="21" selection-end-line="119" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/feature/math.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="210">
+              <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -115,11 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/feature/CucumberFeature.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="270">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -169,15 +167,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/BDD/BddTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/WeaveSocksRestAssuredTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/bdd/BddTest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/math.feature" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/feature/CucumberFeature.java" />
         <option value="$PROJECT_DIR$/src/test/resources/feature/mathfeatureWithBackground" />
         <option value="$PROJECT_DIR$/src/test/resources/feature/Mathwithbackgound" />
         <option value="$PROJECT_DIR$/src/test/java/feature/AddNumbers.java" />
         <option value="$PROJECT_DIR$/src/test/resources/feature/math.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/feature/CucumberFeature.java" />
+        <option value="$PROJECT_DIR$/src/test/java/WeaveSocksRestAssuredTest.java" />
       </list>
     </option>
   </component>
@@ -271,7 +269,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544892624741" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544899996569" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -363,20 +361,11 @@
       <option name="presentableId" value="Default" />
       <updated>1543775803606</updated>
       <workItem from="1543775806872" duration="4710000" />
-      <workItem from="1544884162841" duration="7863000" />
+      <workItem from="1544884162841" duration="9812000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WeaveSocksRestAssuredTest_testingLogin - 2018.12.02 at 19h 56m 49s.xml">
-      <configuration name="WeaveSocksRestAssuredTest.testingLogin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WeaveSocksRestAssuredTest_testingLogin - 2018.12.02 at 19h 57m 14s.xml">
-      <configuration name="WeaveSocksRestAssuredTest.testingLogin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WeaveSocksRestAssuredTest_testingLogin - 2018.12.02 at 19h 58m 15s.xml">
-      <configuration name="WeaveSocksRestAssuredTest.testingLogin" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="WeaveSocksRestAssuredTest_testingLogin - 2018.12.02 at 19h 59m 43s.xml">
       <configuration name="WeaveSocksRestAssuredTest.testingLogin" configurationId="JUnit" />
     </history-entry>
@@ -398,9 +387,18 @@
     <history-entry file="CucumberFeature - 2018.12.15 at 17h 25m 28s.xml">
       <configuration name="CucumberFeature" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CucumberFeature - 2018.12.15 at 17h 48m 10s.xml">
+      <configuration name="CucumberFeature" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CucumberFeature - 2018.12.15 at 17h 49m 24s.xml">
+      <configuration name="CucumberFeature" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CucumberFeature - 2018.12.15 at 17h 53m 01s.xml">
+      <configuration name="CucumberFeature" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12573000" />
+    <option name="totallyTimeSpent" value="14522000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-2" width="1920" height="1082" extended-state="6" />
@@ -415,7 +413,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32983193" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32983193" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39915967" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -486,6 +484,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/feature/math.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/bdd/BddTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -503,27 +508,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/WeaveSocksRestAssuredTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/feature/CucumberFeature.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="105" selection-start-line="105" selection-start-column="2" selection-end-line="121" selection-end-column="3" />
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/feature/math.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/java/WeaveSocksRestAssuredTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/feature/CucumberFeature.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="690">
+          <caret line="119" column="21" lean-forward="true" selection-start-line="119" selection-start-column="21" selection-end-line="119" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
